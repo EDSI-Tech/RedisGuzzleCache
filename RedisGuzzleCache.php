@@ -7,7 +7,7 @@
  * Time: 15:04
  */
 
-namespace MyCity\Bundle\RequestBundle\Helpers;
+namespace EdsiTech\RedisGuzzleCache;
 
 
 use Doctrine\Common\Cache\Cache;
