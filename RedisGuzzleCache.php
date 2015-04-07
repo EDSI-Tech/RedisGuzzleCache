@@ -49,7 +49,8 @@ class RedisGuzzleCache implements Cache
     {
         return $this->redis->get(
             $this->key.$id,
-            false
+            false,
+            true
         );
     }
 
